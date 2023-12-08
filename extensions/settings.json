@@ -1,0 +1,17 @@
+{
+    "git.enableSmartCommit": true,
+    "workbench.editorAssociations": {
+        "*.gz": "default"
+    },
+    "launch": {
+        "configurations": [
+            {
+                "name": "Attach to Edge",
+                "port": 9222,
+                "request": "attach",
+                "type": "msedge",
+                "webRoot": "${workspaceFolder}"
+            }
+        ]
+    }
+}
